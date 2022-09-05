@@ -40,16 +40,27 @@ a{
 }
 main{
     background-color: #c8ffbe;
-    width: 150px;
-    height: 150px;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 100px;
+    height: 300px;
     text-align: center;
     line-height: normal;
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
     font-size: 10px;
-    color: #EDFFAB;
+
+    color: #623B5A;
+}
+
+section{
+    background-color: #EDFFAB ;
+    width: 300px;
+    height: 150px;
+    font-family: "Uncial Antiqua", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 75px;
+}
+h2#DV{
+    color: #89608E;
+    font-size: 22px;
 }
 a::before{
     content: "";
@@ -67,4 +78,5 @@ a::before{
     transform: scale(1.05);
     
 }
+
 
