@@ -18,13 +18,14 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
 	line-height: 1;
+	font-family: "Fira Code", Arial, Helvetica, sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -40,4 +41,8 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+button{
+	font-family: inherit;
+	border: none;
 }
