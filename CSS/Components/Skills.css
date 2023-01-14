@@ -1,0 +1,18 @@
+.Skills{
+    height: 800px;
+    background-color: blueviolet;
+    border-bottom: 10px solid purple;
+}
+
+.Skills .progressbar{
+    border: 5px solid black;
+    height: 20px;
+    width: 300px;
+    background-color: aqua;
+}
+
+.Skills .progressbar .progress{
+    background-color: blue;
+    width: 80%;
+    height: 20px;
+}
