@@ -1,0 +1,15 @@
+.main-section{
+    background-color: blueviolet;
+    border-bottom: 10px solid purple;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.main-section .main-title{
+    margin-bottom: 60px;
+}
+
+.main-section.-second{
+    background-color: black;
+    border-bottom: 10px solid magenta;
+}

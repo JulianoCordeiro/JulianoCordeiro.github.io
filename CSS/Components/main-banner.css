@@ -1,4 +1,4 @@
-.banner{
+.main-banner{
     box-sizing: border-box;
     background-image: url(../../assts/img/photo.jpg);
     background-repeat: no-repeat;
@@ -11,17 +11,17 @@
 }
     
 
-.banner .wrapper{
+.main-banner .wrapper{
     display: flex;
     flex-direction: column;
     width: 730px;
 }
 
-.banner .box{
+.main-banner .main-box{
     margin-bottom: 40px;
 }
 
-.banner .navigation{
+.main-banner .navigation{
     display: flex;
     justify-content: space-around;
 }
