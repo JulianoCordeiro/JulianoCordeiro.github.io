@@ -9,7 +9,10 @@
     margin-bottom: 60px;
 }
 
-.main-section.-second{
+.main-section.-backgroundBlack{
     background-color: black;
+}
+
+.main-section.borderColor{
     border-bottom: 10px solid magenta;
 }
