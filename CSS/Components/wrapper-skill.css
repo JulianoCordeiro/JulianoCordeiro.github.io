@@ -7,7 +7,8 @@
 }
 .wrapper-skill .skill-tec{
     width: 430px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .wrapper-skill .skill-tec:nth-child(odd){

@@ -2,12 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: coral;
-    width: 280px;
-    height: 280px;
-    box-shadow: 10px 10px 0 white;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 0 black;
+    border: 6px solid #8963ba;
+    background-color: #688b58;
 }
 
-.card-project.-color{
-    background-color: crimson;
+.card-project.-colorSecond{
+    border: 6px solid #688b58;
+    background-color: #8963ba;
 }

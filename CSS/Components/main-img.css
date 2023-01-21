@@ -1,6 +1,11 @@
 .main-img{
-    width: 78px;
-    height: 78px;
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 200px;
+    border: 2px solid #8963ba;
+    background-color: transparent;
+
 }
 
 .logo{

@@ -4,9 +4,10 @@
     background-repeat: no-repeat;
     background-size: 100%;
     height: 800px;
-    border-bottom: 10px solid black;
     padding-top: 50px;
     padding-left: 40px;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, white, yellow, cyan, #06b800, magenta, red, rgb(39, 39, 197)) 1;
     
 }
     

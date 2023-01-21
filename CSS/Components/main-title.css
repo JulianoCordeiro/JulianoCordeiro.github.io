@@ -1,12 +1,20 @@
 .main-title{
     font-family: "Press Start 2P", sans-serif;
     font-size: 40px;
-    color: #26022b;
-    text-shadow: 4px 4px 0 black;
+    color: #afe3c0;
+    text-shadow: 4px 4px 0 rgb(0, 0, 0);
 }
 
 .main-title.-second{
+    font-size: 32px;
     color: white;
+    text-shadow: none;
+    text-align: center;
+}
+
+.main-title.-third{
+    color: black;
+    font-size: 32px;
     text-shadow: none;
     text-align: center;
 }

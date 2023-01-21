@@ -1,11 +1,11 @@
 .main-button{
     display: inline-block;
-    background-color: #89608E;
-    height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    line-height: 60px;
-    box-shadow: 4px 4px 2px black;
+    background-color: #8963ba;
+    height: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 45px;
+    box-shadow: 4px 4px 2px #ffffff;
     transition: transform 200ms cubic-bezier(0.1, 0.15, 1, 1.84);
     color: white;
     font-size: 20px;
@@ -13,9 +13,8 @@
 }
 
 .main-button:hover{
-    background-color:#ba9593;
-    box-shadow: 6px 6px 4px black;
-    text-shadow: 1px 1px black;
-    color: #89608E;
+    background-color: #90c290;
+    box-shadow: 6px 6px 4px #ffffff;
+    color: #493688;
     transform: scale(1.05);
 }
