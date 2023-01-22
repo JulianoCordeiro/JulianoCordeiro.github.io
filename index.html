@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="CSS/Components/wrapper-card.css">
     <link rel="stylesheet" href="CSS/Components/main-description.css">
     <link rel="stylesheet" href="CSS/Components/button-arrow.css">
+    <link rel="stylesheet" href="CSS/Components/main-label.css">
     <link rel="stylesheet" href="CSS/Components/main-footer.css">
 </head>
 <body>
@@ -105,16 +106,35 @@
 
     <section class="main-section -backgroundGrey">
         <h2 class="main-title -second">Sobre</h2>
-        <p class="main-description">
+        <div class="main-description">
             <img class="main-img -second" src="assts/img/x.png" alt="">
-            Um programador iniciante que pretende se especializar em FrontEnd, 
-            Juliano está aprendendo a desenvolver a parte visual e 
-            interativa de sites ou aplicativos web. Ele está se familiarizando
-            com as tecnologias e ferramentas usadas para criar a interface do 
-            usuário, como HTML, CSS e JavaScript. Ele também está aprendendo
-            sobre boas práticas de design e usabilidade para garantir que a 
-            aplicação seja atraente e fácil de usar.
-        </p>
+            <p class="paragraph">
+                &nbsp Um programador iniciante que pretende se especializar em FrontEnd. 
+                Se familiarizando com as tecnologias e ferramentas usadas para criar 
+                a interface do usuário, como HTML, CSS e JavaScript.<br>
+                &nbsp Juliano está aprendendo a desenvolver a parte visual e 
+                interativa de sites ou aplicativos web. E sobre boas práticas 
+                de design e usabilidade para garantir que a aplicação seja atraente 
+                e fácil de usar.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="main-section">
+        <h2 class="main-title -second">Contatos</h2>
+        <form action="get">
+            <label class="main-label" for="Get-name">Nome</label>
+            <input class="input" id="Get-name" type="text" name="name">
+            
+            <label class="main-label" for="Get-email">Email</label>
+            <input class="input" id="Get-email" type="email" email="email">
+
+            <label class="main-label" for="Get-message">Mensagem</label>
+            <textarea name="msg" id="Get-message"></textarea>
+
+            <button class="main-button" type="submit">Enviar</button>
+        </form>
     </section>
 
     <footer class="main-footer">
