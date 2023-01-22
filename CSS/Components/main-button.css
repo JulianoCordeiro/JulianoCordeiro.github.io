@@ -10,15 +10,22 @@
     color: white;
     font-size: 20px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .main-button:hover{
     background-color: #90c290;
     box-shadow: 6px 6px 4px #ffffff;
     color: #493688;
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
 
 .main-button.-full{
     width: 100%;
+}
+
+.main-button.-full:hover{
+    background-color: #90c290;
+    color: #493688;
+    transform: scale(1.01);
 }
