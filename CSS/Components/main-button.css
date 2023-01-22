@@ -18,3 +18,7 @@
     color: #493688;
     transform: scale(1.05);
 }
+
+.main-button.-full{
+    width: 100%;
+}
