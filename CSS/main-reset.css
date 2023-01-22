@@ -46,3 +46,6 @@ button{
 	font-family: inherit;
 	border: none;
 }
+input{
+	padding: 0;
+}
