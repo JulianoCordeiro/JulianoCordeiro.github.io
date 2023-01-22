@@ -8,6 +8,13 @@
 
 }
 
+.main-img.-second{
+    width: 250px;
+    height: 250px;
+    border-width: 10px;
+    background-color: #90c290;
+}
+
 .logo{
     width: 180px;
     height: 180px;
