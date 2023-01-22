@@ -7,10 +7,6 @@
     border-image: linear-gradient(to right, white, yellow, cyan, #06b800, magenta, red, rgb(39, 39, 197)) 1;
 }
 
-.main-section .main-title{
-    margin-bottom: 60px;
-}
-
 .main-section.-backgroundSecond{
     background-color: #d0ccc9;
 }
