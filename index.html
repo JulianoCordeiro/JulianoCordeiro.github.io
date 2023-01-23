@@ -34,13 +34,13 @@
 </head>
 <body>
     <header class="main-header">
-        <img class="main-img" src="assts/img/perfil.png" alt="Figurinha">
+        <img class="main-img" src="assets/img/perfil.png" alt="Figurinha">
         <nav>
-            <a class="main-action" href="skill" lang="en">SKILLS</a>
-            <a class="main-action" href="projeto">PROJETOS</a>
-            <a class="main-action" href="sobre">SOBRE</a>
-            <a class="main-action" href="contato">CONTATOS</a>
-            <a class="main-button" href="Download" lang="en">DOWNLOAD CV</a>
+            <a class="main-action" href="#skills" lang="en">SKILLS</a>
+            <a class="main-action" href="#project">PROJETOS</a>
+            <a class="main-action" href="#about">SOBRE</a>
+            <a class="main-action" href="#contact">CONTATOS</a>
+            <a class="main-button" href="assets/archive/curriculumVitae.pdf" lang="en" download="CV Julino Cordeiro.pdf">DOWNLOAD CV</a>
         </nav>
     </header>
     <section class="main-banner">
@@ -52,7 +52,7 @@
         </div>
     </section>
 
-    <section class="main-section">
+    <section class="main-section" id="skills">
         <h2 class="main-title -second">Skills</h2>
         <div class="wrapper-skill">
             <article class="skill-tec">
@@ -86,7 +86,7 @@
         </div>
     </section>
 
-    <section class="main-section -backgroundSecond">
+    <section class="main-section -backgroundSecond" id="project">
         <h2 class="main-title -third">Projetos</h2>
         <div class="wrapper-card">
             <a href="https://www.github.com/JulianoCordeiro" target="_blank">
@@ -107,10 +107,10 @@
         </div>
     </section>
 
-    <section class="main-section">
+    <section class="main-section" id="about">
         <h2 class="main-title -second">Sobre</h2>
         <div class="main-description">
-            <img class="main-img -second" src="assts/img/photoDescription.png" alt="">
+            <img class="main-img -second" src="assets/img/photoDescription.png" alt="">
             <p class="paragraph">
                 &nbsp Um programador iniciante que pretende se especializar em FrontEnd. 
                 Se familiarizando com as tecnologias e ferramentas usadas para criar 
@@ -123,7 +123,7 @@
         </div>
     </section>
 
-        <form class="main-form">
+        <form class="main-form" id="contact">
             <legend class="main-title -third -marginSecond">Contatos</legend>
             <label class="main-label" for="Get-name">Nome</label>
             <input class="main-input" id="Get-name" type="text" required>
@@ -132,7 +132,7 @@
             <input class="main-input" id="Get-email" type="email" required>
 
             <label class="main-label" for="Get-message">Mensagem</label>
-            <textarea class="main-input -textarea" id="Get-message" required></textarea>
+            <textarea class="main-input -textarea" id="Get-message" required>Input ainda em produção.</textarea>
 
             <button class="main-button -full" type="submit">Enviar</button>
         </form>
@@ -147,6 +147,10 @@
         <a class="action" href="https://wa.me/5542999221470" target="_blank">
             <img class="icon" src="img/whatsappIcon.png" alt="Icone Whatsapp">
         </a>
+        <a class="action" href="mailto:julianocordeirosantos@gmail.com" target="_blank">
+            <img class="icon" src="img/emailIcon.png" alt="Icone Email">
+        </a>
+
     </footer>
 
 </body>

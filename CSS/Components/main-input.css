@@ -10,4 +10,6 @@
 
 .main-input.-textarea{
     height: 180px;
+    font-size: 15px;
+    color: grey;
 }
