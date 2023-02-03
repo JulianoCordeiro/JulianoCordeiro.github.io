@@ -8,12 +8,10 @@
     background-color: black;
 }
 .progress-bar::-moz-progress-bar{
-    background-color: white;
+    background-color: black;
+    background:  linear-gradient(to right, #54428e, #8963ba, #afe3c0, #90c290);
 }
 
 .progress-bar::-webkit-progress-value{
     background: linear-gradient(to right, #54428e, #8963ba, #afe3c0, #90c290);
-}
-.progress-bar::-moz-progress-value {
-    background:  linear-gradient(to right, #54428e, #8963ba, #afe3c0, #90c290);
 }
